@@ -1,10 +1,9 @@
-package addition;
+package substraction;
 
 import java.util.Scanner;
 
-public class Addition {
-
-    public void addition() {
+public class Substraction {
+    public void substraction() {
         Scanner firstnumber = new Scanner(System.in);
         Scanner secondnumber = new Scanner(System.in);
 
@@ -14,7 +13,6 @@ public class Addition {
         System.out.print("Write second number: ");
         double b = secondnumber.nextDouble();
 
-        System.out.println("Your addition result is " + (a + b));
-
+        System.out.println("Your substraction result is " + (a - b));
     }
 }
